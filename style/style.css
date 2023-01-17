@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    background: #0c0c0c;
+    border: 1px solid rgba(125, 115, 115, 0.5);
+}
+
+.nav__content_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.nav__left {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.nav__left_title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.nav__list_link_1 a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.nav__right {
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+    gap: 20px;
+
+}
+
+/* nav */
+
+.nav__2 {
+    background: black;
+    border: 1px solid rgba(125, 115, 115, 0.5);
+}
+
+.nav__content_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list_link a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+
+}
+
+.nav__list_link:hover {
+    background: rgba(105, 207, 23, 0.75);
+}
+
+.nav__list_link {
+    padding: 22px 14px;
+    transition: 0.4s;
+}
+
+/* nav */
+
+/* big__burger */
+
+.header {
+    background: url("../img/main_img/food-burger-wallpaper-preview 1.svg") center center/cover no-repeat;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.big__burger_title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 85px;
+    color: #69cf17;
+}
+
+.big__burger_title_2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 17px;
+    color: #69cf17;
+}
+
+.big__burger_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+
+
+.big__burger {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.big__burger_prise {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 25px;
+    background: rgba(105, 207, 23, 0.5);
+    backdrop-filter: blur(9px);
+    padding: 30px 76px;
+    color: #FFFFFF;
+    display: flex;
+    transition: 0.3s;
+}
+
+.big__burger_prise:hover {
+    color: yellow;
+}
+
+.big__burger_btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 63px;
+}
+
+.big__burger_btn {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    background: rgba(105, 207, 23, 0.5);
+    backdrop-filter: blur(9px);
+    border-radius: 6px;
+    padding: 15px 70px;
+    display: flex;
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.big__burger_btn:hover {
+    color: yellow;
+}
+
+/* big__burger */
+
+
+
+/* nav__cards */
+
+.nav__cards {
+    padding: 0 15px;
+    background: #292929;
+    box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.3);
+}
+
+.nav__cards_list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.nav__card_link a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.nav__card_link a:hover {
+    color: #69cf17;
+}
+
+
+.padding {
+    padding-top: 22px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+
+.nav__card_link a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #69cf17;
+    transform: scale(0);
+    transition: 0.3s;
+}
+
+.nav__card_link a:hover:after {
+    transform: scale(1);
+}
+
+/* nav__cards */
+
+
+
+
+/* cards */
+
+.cards {
+    padding: 15px 15px;
+    background: #393636;
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    gap: 30px;
+    margin-bottom: 65px;
+
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0C0C0C;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    gap: 15px;
+    padding: 15px;
+}
+
+.card__img_hover {
+    background: rgba(105, 207, 23, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: 0.4s;
+}
+
+.card__img:hover .card__img_hover {
+    transform: scale(1);
+}
+
+.card__infor {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.card__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.card__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 338px;
+    padding-bottom: 15px;
+}
+
+.card_img_burger {
+    width: 100%;
+}
+
+.card__img {
+    width: 100%;
+    position: relative;
+}
+
+/* cards */
+
+
+.branch {
+    background: #FFFFFF;
+    padding: 20px 0;
+}
+
+
+.branch__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #69CF17;
+
+}
+
+.footer__content {
+    background: linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 0.5) 100%);
+}
+
+.map {
+    width: 100%;
+    height: 500px;
+}
+
+.footer__number {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    transition: 0.3s;
+    color: #FFFFFF;
+
+}
+
+.footer__number:hover {
+    color: rgba(105, 207, 23, 0.75);
+}
+
+.footer__logo_number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+
+}
+
+.footer__nav_list_link a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.footer__nav_list_link a:hover {
+    color: rgba(105, 207, 23, 0.75);
+}
+
+
+.footer__nav_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 96px;
+    padding-bottom: 80px;
+}
+
+.footer__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: #1A3406;
+    text-align: center;
+    padding: 19px 0;
+    color: #FFFFFF;
+}
+
+
+/* page_2 */
+
+
+
+.street__88_imgg {
+    width: 100%;
+    height: 100%;
+}
+
+.street__88_img {
+    position: relative;
+}
+
+.street_88_logo_title {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 65px;
+    color: rgba(105, 207, 23, 0.7);
+    position: absolute;
+    bottom: 175px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 15px rgba(191, 171, 171, 0.4);
+}
+
+
+.header_page_2 {
+    background: url("../img/main_img/food-burger-wallpaper-preview 1.svg") center center/cover no-repeat;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.street__88_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+
+/* page_2 */

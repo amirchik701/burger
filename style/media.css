@@ -1,0 +1,323 @@
+@media (max-width:1601px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .card {
+    grid-column: span 2;
+  }
+
+  .card:nth-child(7) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  .card:nth-child(8) {
+    grid-column-start: 4;
+    grid-column-end: 6;
+  }
+}
+
+@media (max-width:1401px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .card {
+    grid-column: span 2;
+  }
+
+
+  .card:nth-child(7) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  .card:nth-child(8) {
+    grid-column-start: 4;
+    grid-column-end: 6;
+  }
+
+}
+
+
+@media (max-width:1201px) {
+  .big__burger_title {
+    font-size: 55px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .card:nth-child(7) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  .card:nth-child(8) {
+    grid-column-start: 4;
+    grid-column-end: 6;
+  }
+}
+
+@media (max-width:1201px) {
+  .card__title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .card__text {
+    max-width: 250px;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width:876px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .card:nth-child(7) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .card:nth-child(8) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+}
+
+@media (max-width:771px) {
+  .nav__content_2 {
+    flex-direction: column;
+  }
+
+  .nav__list {
+    flex-wrap: wrap;
+  }
+
+  .nav__2_img {
+    padding-top: 15px;
+  }
+
+  .branch__title {
+    font-size: 40px;
+  }
+
+  .street_88_logo_title {
+    font-size: 42px;
+
+  }
+}
+
+@media (max-width:731px) {
+  .big__burger_title {
+    font-size: 40px;
+  }
+
+  .big__burger_title_2 {
+    font-size: 30px;
+  }
+
+  .big__burger_text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:650px) {
+  .big__burger_title {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .big__burger_title_2 {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .big__burger_prise {
+    border-radius: 3px;
+    padding: 20px 20px;
+    font-size: 30px;
+  }
+
+  .big__burger_btn {
+    font-size: 15px;
+    padding: 15px 15px;
+  }
+}
+
+@media (max-width:635px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+  .card:nth-child(7) {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .card:nth-child(8) {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 350px);
+    justify-content: center;
+  }
+
+  .card {
+    grid-column: span 1;
+  }
+
+}
+
+@media (max-width:606px) {
+  .nav__list {
+    justify-content: center;
+    max-width: 300px;
+  }
+
+  .nav__cards_list {
+    justify-content: center;
+  }
+
+  .big__burger_title {
+    font-size: 30px;
+  }
+
+  .big__burger_title_2 {
+    font-size: 24px;
+  }
+
+  .big__burger_text {
+    font-size: 13px;
+  }
+
+  .nav__content_1 {
+    flex-direction: column;
+  }
+
+  .nav__left {
+    padding-bottom: 40px;
+  }
+
+  .street_88_logo_title {
+    font-size: 40px;
+  }
+
+  .nav__list_link {
+    padding: 15px 14px;
+
+  }
+}
+
+@media (max-width:500px) {
+  .street_88_logo_title {
+    font-size: 30px;
+  }
+
+  .street__88_text {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+
+@media (max-width:470px) {
+  .footer__logo_number {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (max-width:441px) {
+  .nav__cards_list {
+    flex-wrap: wrap;
+    max-width: 225px;
+    justify-content: end;
+  }
+
+  .padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width:402px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    justify-content: center;
+  }
+
+  .street_88_logo_title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width:360px) {
+  .big__burger_title {
+    font-size: 22px;
+  }
+
+  .big__burger_title_2 {
+    font-size: 22px;
+  }
+
+  .big__burger_text {
+    font-size: 12px;
+  }
+
+  .big__burger_prise {
+    font-size: 26px;
+  }
+
+  .big__burger_btn {
+    font-size: 13px;
+  }
+}
+
+@media (max-width:332px) {
+
+  /* .nav__right_2 .nav__list {
+    gap: 1px;
+  } */
+  .nav__list_link {
+    padding: 10px 14px;
+  }
+}
+
+@media (max-width:321px) {
+  .card__text {
+    font-size: 14px;
+  }
+
+  .nav__cards_list {
+    max-width: 204px;
+  }
+
+  .footer__number {
+    font-size: 18px;
+  }
+
+  .footer__nav_list_link a {
+    font-size: 17px;
+  }
+
+  .footer__text {
+    font-size: 13px;
+  }
+}
